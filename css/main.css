@@ -1,0 +1,90 @@
+html {
+	font-size: 100%;
+	line-height: 1.15;
+}
+
+img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.margin-offset {
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+body {
+	width: 99%;
+	max-width: 60em;
+	margin: 1em auto;
+}
+
+header {
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 2em;
+}
+
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%)
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+	font-size: 1.2em;
+}
+
+nav li {
+	margin-top: .5em;
+	text-align: center;
+}
+
+
+figure {
+	margin: 1em;
+	border: .5em solid #666;
+}
+
+h2 {
+	font-family: serif;
+	font-size: 1.8em;
+	text-align: right;
+}
+
+a {
+	color: #f00;
+	text-decoration: none;
+}
+
+	a:hover {
+		text-decoration: underline;
+	}
+	
+@media (min-width: 48em) {
+
+nav ul {
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin-left: .5em;
+}
+
+figure {
+	margin-right: 0;
+}
+}
